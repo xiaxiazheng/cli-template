@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/index.js",
   "bin": {
-    "cli": "./src/index.js"
+    "cli": "./dist/bundle.js"
   },
   "scripts": {
     "build": "npx rollup -c rollup.config.js",

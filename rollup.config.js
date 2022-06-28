@@ -16,7 +16,7 @@ export default {
       babelHelpers: "bundled",
       extensions: [".js", ".es6", ".es", ".mjs", ".ts"],
     }),
-    terser(), // 压缩代码
+    // terser(), // 压缩代码
     filesize(), // 在控制台显示文件大小
   ],
   output: {
